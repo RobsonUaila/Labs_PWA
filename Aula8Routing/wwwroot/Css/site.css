@@ -1,0 +1,62 @@
+﻿body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f7f4f1;
+    color: #2d2929;
+}
+
+header {
+    background: #801212;
+    color: white;
+    padding: 22px;
+}
+
+    header .marca {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+    }
+
+    header img {
+        width: 72px;
+        height: 72px;
+        object-fit: contain;
+        background: white;
+        border-radius: 50%;
+    }
+
+.container {
+    max-width: 980px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+}
+
+a {
+    color: #801212;
+    font-weight: bold;
+}
+
+.codigo {
+    font-family: Consolas, monospace;
+    background: #f0eeee;
+    padding: 3px 6px;
+    border-radius: 4px;
+}
+
+.erro {
+    border-left: 5px solid #b73434;
+}
+
+footer {
+    text-align: center;
+    padding: 24px;
+    color: #666;
